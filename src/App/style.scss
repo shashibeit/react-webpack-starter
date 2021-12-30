@@ -1,0 +1,34 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #fff;
+$primary-background-color: #022340;
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $primary-background-color;
+}
+h1 {
+  font-weight: lighter;
+}
+.container{
+ 
+  margin:auto !important;
+}
+
+.jumbotron{
+  background-color: transparent !important;
+}
+.align-center {
+  margin: 20vh auto auto auto;
+  height: auto;
+  width: 50%; 
+  padding: 10px;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: #fdfdfd;
+  border: 0;
+  opacity: 0.25;
+}
